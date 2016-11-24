@@ -1,0 +1,55 @@
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+nav{
+	background-color: black;
+	padding: 2px;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 10px;
+	border:1px lightgray solid;
+}
+
+nav a, nav a:visited {
+	color: lightgray;
+	text-decoration: none;
+}
+
+#profile{
+	max-width: 950px;
+	margin: 0px auto;
+}
+
+.person{
+	width:calc(33% - 20px);
+	padding:5px 20px 20px 20px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #000;
+	color:#fff;
+	border:1px #333 solid;
+	border-radius:5px;
+	margin:10px;
+}
+.person .profileImage{
+text-align: center;
+}
+.person img{
+	border-radius:50%;
+	border:2px #fff solid;
+}
+.person h5{
+	margin:10px 0px 0px 0px;
+}
+
+.person h5+p{
+	margin:0px;
+}
